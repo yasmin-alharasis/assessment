@@ -98,7 +98,8 @@ Ex: stringToCapital("Are you a student in coding ACADEMY by ORANGE ?")
 
 function stringToCapital(str) {
   // WRITE YOUR CODE UNDER THIS LINE         
-return str.toUpperCase()+stringToCapital();
+	var string = str.toUpperCase();
+	return string ; 
 }
 
 // Good luck :)
